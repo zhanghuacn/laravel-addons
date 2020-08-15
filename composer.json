@@ -3,7 +3,7 @@
 	"type": "framework-extension",
 	"description": "Addons Extension Pack for Laravel",
 	"license": "MIT",
-	"keywords": ["Laravel", "Laravel 5", "Laravel 6","Laravel 7","addon", "migration", "architecture", "facade"],
+	"keywords": ["laravel", "laravel addons", "laravel extension"],
 	"homepage": "https://github.com/hinet/laravel-addons",
 	"authors": [
 		{
