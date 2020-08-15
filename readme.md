@@ -1,7 +1,11 @@
 
 # Addons Extension Pack for laravel 
 
-## Features
+## 特性
+
+#### 支持版本
+
+本扩展包支持Laravel5,6,7版本
 
 ## 如何安装
 
@@ -20,17 +24,17 @@ composer require hinet/laravel-addons
 #### 命令行 
 
 * make:addon  
-```
-php artisan make:addon [name] [skeleton]
-```  
-skeleton: [minimum,simple,asset,library,api,ui,ui-sample,admin,generator]  
+  ```
+  php artisan make:addon [name] [skeleton]
+  ```  
+  skeleton: [minimum,simple,asset,library,api,ui,ui-sample,admin,generator]  
 
-参数：    
---space  
---namespace  
---no-namespace  
---language  
---yes  
+  参数：    
+  --space  
+  --namespace  
+  --no-namespace  
+  --language  
+  --yes  
 
 * addon:list  
 * addon:name  
