@@ -1,5 +1,5 @@
 
-# Laravel Extension Pack
+# Addons Extension Pack for laravel 
 
 ## Features
 
@@ -13,7 +13,7 @@
 使用 Composer 
 
 ```sh
-composer require JYmusic/laravel-addons
+composer require hinet/laravel-addons
 ```
 
 ## License
