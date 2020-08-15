@@ -1,6 +1,6 @@
 <?php
 
-namespace JYmusic\LaravelAddons;
+namespace Hinet\LaravelAddons;
 
 use Illuminate\Config\Repository;
 use Illuminate\Container\Container;

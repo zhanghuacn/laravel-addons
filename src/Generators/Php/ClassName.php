@@ -1,6 +1,6 @@
 <?php
 
-namespace JYmusic\LaravelAddons\Generators\Php;
+namespace Hinet\LaravelAddons\Generators\Php;
 
 class ClassName
 {

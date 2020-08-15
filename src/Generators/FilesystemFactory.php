@@ -1,6 +1,6 @@
 <?php
 
-namespace JYmusic\LaravelAddons\Generators;
+namespace Hinet\LaravelAddons\Generators;
 
 use League\Flysystem\Filesystem;
 use League\Flysystem\Adapter\Local as LocalAdapter;

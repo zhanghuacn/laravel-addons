@@ -2,7 +2,7 @@
 
 namespace {$namespace}\Providers;
 
-use JYmusic\LaravelAddons\Support\AddonServiceProvider as ServiceProvider;
+use Hinet\LaravelAddons\Support\AddonServiceProvider as ServiceProvider;
 
 class AddonServiceProvider extends ServiceProvider
 {

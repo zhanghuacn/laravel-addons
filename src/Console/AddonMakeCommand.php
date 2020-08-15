@@ -1,11 +1,11 @@
 <?php
 
-namespace JYmusic\LaravelAddons\Console;
+namespace Hinet\LaravelAddons\Console;
 
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;
-use JYmusic\LaravelAddons\Environment as AddonEnvironment;
-use JYmusic\LaravelAddons\Generator as AddonGenerator;
+use Hinet\LaravelAddons\Environment as AddonEnvironment;
+use Hinet\LaravelAddons\Generator as AddonGenerator;
 use UnexpectedValueException;
 use Exception;
 

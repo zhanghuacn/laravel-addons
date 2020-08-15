@@ -1,8 +1,8 @@
 <?php
 
-use JYmusic\LaravelAddons\Specs\Factory as SpecFactory;
+use Hinet\LaravelAddons\Specs\Factory as SpecFactory;
 
-use JYmusic\LaravelAddons\Environment as AddonEnvironment;
+use Hinet\LaravelAddons\Environment as AddonEnvironment;
 
 if (!function_exists('runtime_get_caller_class')) {
     /**

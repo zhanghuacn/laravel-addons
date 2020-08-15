@@ -1,10 +1,10 @@
 <?php
 
-namespace JYmusic\LaravelAddons;
+namespace Hinet\LaravelAddons;
 
-use JYmusic\LaravelAddons\Generators\Php\Constant;
-use JYmusic\LaravelAddons\Generators\Php\ClassName;
-use JYmusic\LaravelAddons\Generators\FileGenerator;
+use Hinet\LaravelAddons\Generators\Php\Constant;
+use Hinet\LaravelAddons\Generators\Php\ClassName;
+use Hinet\LaravelAddons\Generators\FileGenerator;
 
 class Generator
 {

@@ -3,7 +3,7 @@
 namespace {$namespace}\Providers;
 
 use Illuminate\Routing\Router;
-use JYmusic\LaravelAddons\Support\RouteServiceProvider as ServiceProvider;
+use Hinet\LaravelAddons\Support\RouteServiceProvider as ServiceProvider;
 
 class RouteServiceProvider extends ServiceProvider
 {
@@ -21,7 +21,7 @@ class RouteServiceProvider extends ServiceProvider
     /**
      * Get addon.
      *
-     * @return \JYmusic\LaravelAddons\Addon
+     * @return \Hinet\LaravelAddons\Addon
      */
     protected function addon()
     {

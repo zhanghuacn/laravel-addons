@@ -1,6 +1,6 @@
 <?php
 
-namespace JYmusic\LaravelAddons\Generators;
+namespace Hinet\LaravelAddons\Generators;
 
 use stdClass;
 use InvalidArgumentException;

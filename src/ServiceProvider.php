@@ -1,13 +1,13 @@
 <?php
 
-namespace JYmusic\LaravelAddons;
+namespace Hinet\LaravelAddons;
 
 use Illuminate\Support\Facades\Blade;
-use JYmusic\LaravelAddons\Addon\Generator as AddonGenerator;
-use JYmusic\LaravelAddons\Addon\Repository;
-use JYmusic\LaravelAddons\Addon\Events\AddonWorldCreated;
-use JYmusic\LaravelAddons\Addon\Events\AddonRegistered;
-use JYmusic\LaravelAddons\Addon\Events\AddonBooted;
+use Hinet\LaravelAddons\Addon\Generator as AddonGenerator;
+use Hinet\LaravelAddons\Addon\Repository;
+use Hinet\LaravelAddons\Addon\Events\AddonWorldCreated;
+use Hinet\LaravelAddons\Addon\Events\AddonRegistered;
+use Hinet\LaravelAddons\Addon\Events\AddonBooted;
 
 class ServiceProvider extends \Illuminate\Support\ServiceProvider
 {

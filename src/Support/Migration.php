@@ -1,6 +1,6 @@
 <?php
 
-namespace JYmusic\LaravelAddons\Support;
+namespace Hinet\LaravelAddons\Support;
 
 use Illuminate\Database\Migrations\Migration as BaseMigration;
 

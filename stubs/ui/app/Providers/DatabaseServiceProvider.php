@@ -2,7 +2,7 @@
 
 namespace {$namespace}\Providers;
 
-use JYmusic\LaravelAddons\Support\DatabaseServiceProvider as ServiceProvider;
+use Hinet\LaravelAddons\Support\DatabaseServiceProvider as ServiceProvider;
 use {$namespace}\Database\Migrations;
 use {$namespace}\Database\Seeds;
 

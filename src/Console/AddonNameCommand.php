@@ -1,12 +1,12 @@
 <?php
 
-namespace JYmusic\LaravelAddons\Console;
+namespace Hinet\LaravelAddons\Console;
 
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;
 use Symfony\Component\Finder\Finder;
-use JYmusic\LaravelAddons\Environment as AddonEnvironment;
-use JYmusic\LaravelAddons\Addon;
+use Hinet\LaravelAddons\Environment as AddonEnvironment;
+use Hinet\LaravelAddons\Addon;
 use UnexpectedValueException;
 
 class AddonNameCommand extends Command

@@ -1,9 +1,9 @@
 <?php
 
-namespace JYmusic\LaravelAddons\Support;
+namespace Hinet\LaravelAddons\Support;
 
 use Illuminate\Support\ServiceProvider;
-use JYmusic\LaravelAddons\Migrator;
+use Hinet\LaravelAddons\Migrator;
 
 abstract class DatabaseServiceProvider extends ServiceProvider
 {

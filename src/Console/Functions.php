@@ -1,6 +1,6 @@
 <?php
 
-namespace JYmusic\LaravelAddons\Console;
+namespace Hinet\LaravelAddons\Console;
 
 trait Functions
 {
