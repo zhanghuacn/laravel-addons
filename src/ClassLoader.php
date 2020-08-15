@@ -2,6 +2,7 @@
 
 namespace Hinet\LaravelAddons;
 
+use Illuminate\Support\Str;
 
 class ClassLoader
 {
@@ -58,7 +59,7 @@ class ClassLoader
             $namespacePrefix = $namespace ? $namespace.'\\' : '';
 
             // 如果它不是附加命名空间下的类
-            if (!starts_with($className, $namespacePrefix)) {
+            if (!Str::startsWith($className, $namespacePrefix)) {
                 continue;
             }
 

@@ -1,7 +1,7 @@
 <?php
 
+use Illuminate\Support\Str;
 use Hinet\LaravelAddons\Specs\Factory as SpecFactory;
-
 use Hinet\LaravelAddons\Environment as AddonEnvironment;
 
 if (!function_exists('runtime_get_caller_class')) {
@@ -52,7 +52,7 @@ if (!function_exists('addon_name')) {
         });
 
         foreach ($addons as $addon) {
-            if (starts_with($class, $addon->phpNamespace().'\\')) {
+            if (Str::startsWith($class, $addon->phpNamespace().'\\')) {
                 return $addon->name();
             }
         }
