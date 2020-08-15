@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Str;
+use Illuminate\Support\Arr;
 use Hinet\LaravelAddons\Specs\Factory as SpecFactory;
 use Hinet\LaravelAddons\Environment as AddonEnvironment;
 
@@ -16,7 +17,7 @@ if (!function_exists('runtime_get_caller_class')) {
 
         $caller = debug_backtrace(0, $level)[$level - 1];
 
-        return array_get($caller, 'class');
+        return Arr::get($caller, 'class');
     }
 }
 

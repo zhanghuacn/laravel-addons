@@ -2,6 +2,7 @@
 
 namespace Hinet\LaravelAddons\Console;
 
+use Illuminate\Support\Str;
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;
 use Hinet\LaravelAddons\Environment as AddonEnvironment;
@@ -85,7 +86,7 @@ class AddonMakeCommand extends Command
         $addon_class = preg_replace(
             ['/[^\w_]/', '/^(\d)/'],
             ['', '_$1'],
-            studly_case($addon_name)
+            Str::studly($addon_name)
         );
 
         // namespace
@@ -114,7 +115,7 @@ class AddonMakeCommand extends Command
             'addon_class' => $addon_class,
             'namespace' => $namespace,
             'languages' => array_unique(array_merge(['en', $this->laravel['config']->get('app.locale')], $languages)),
-            'test_namespace' => 'Tests\\'.studly_case($addon_name),
+            'test_namespace' => 'Tests\\'.Str::studly($addon_name),
         ];
 
         // confirm

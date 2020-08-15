@@ -2,6 +2,7 @@
 
 namespace Hinet\LaravelAddons;
 
+use Illuminate\Support\Arr;
 use Illuminate\Contracts\Foundation\Application;
 use UnexpectedValueException;
 
@@ -76,7 +77,7 @@ class Environment
      */
     public function spacePath($space, $name = null)
     {
-        $path = $space ? array_get($this->spacePaths, $space) : $this->path();
+        $path = $space ? Arr::get($this->spacePaths, $space) : $this->path();
 
         if ($path === null) {
             throw new UnexpectedValueException("addon space '{$space}' is not found.");
@@ -202,6 +203,6 @@ class Environment
      */
     public function addon($name)
     {
-        return array_get($this->addons(), $name ?: '', null);
+        return Arr::get($this->addons(), $name ?: '', null);
     }
 }

@@ -2,6 +2,7 @@
 
 namespace Hinet\LaravelAddons;
 
+use Illuminate\Support\Str;
 use Hinet\LaravelAddons\Generators\Php\Constant;
 use Hinet\LaravelAddons\Generators\Php\ClassName;
 use Hinet\LaravelAddons\Generators\FileGenerator;
@@ -52,7 +53,7 @@ class Generator
     {
         $generator = FileGenerator::make($path, __DIR__.'/../stubs/'.$type);
 
-        $method = 'generate'.studly_case($type);
+        $method = 'generate'.Str::studly($type);
 
         call_user_func([$this, $method], $generator, $properties);
     }

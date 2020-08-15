@@ -2,6 +2,7 @@
 
 namespace Hinet\LaravelAddons;
 
+use Illuminate\Support\Arr;
 use Illuminate\Database\DatabaseManager;
 use Illuminate\Contracts\Config\Repository as Config;
 use Illuminate\Database\Schema\Blueprint;
@@ -110,7 +111,7 @@ class Migrator
      */
     public function migrationVersions($group, $descending = false)
     {
-        $versions = array_get($this->migrations, $group, []);
+        $versions = Arr::get($this->migrations, $group, []);
 
         uksort($versions, [$this, 'compareMigrationVersion']);
 
@@ -149,9 +150,9 @@ class Migrator
      */
     public function migrationClass($group, $version)
     {
-        $versions = array_get($this->migrations, $group, []);
+        $versions = Arr::get($this->migrations, $group, []);
 
-        return array_get($versions, $version, null);
+        return Arr::get($versions, $version, null);
     }
 
     /**
@@ -204,7 +205,7 @@ class Migrator
      */
     public function seedClass($name)
     {
-        return array_get($this->seeds, $name);
+        return Arr::get($this->seeds, $name);
     }
 
     /**
