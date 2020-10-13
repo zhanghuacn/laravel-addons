@@ -1,12 +1,12 @@
 <?php
 
-namespace Hinet\LaravelAddons\Console;
+namespace Kaneki\LaravelAddons\Console;
 
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;
 use Symfony\Component\Finder\Finder;
-use Hinet\LaravelAddons\Environment as AddonEnvironment;
-use Hinet\LaravelAddons\Addon;
+use Kaneki\LaravelAddons\Environment as AddonEnvironment;
+use Kaneki\LaravelAddons\Addon;
 use UnexpectedValueException;
 
 class AddonNameCommand extends Command

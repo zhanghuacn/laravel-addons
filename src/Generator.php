@@ -1,11 +1,11 @@
 <?php
 
-namespace Hinet\LaravelAddons;
+namespace Kaneki\LaravelAddons;
 
 use Illuminate\Support\Str;
-use Hinet\LaravelAddons\Generators\Php\Constant;
-use Hinet\LaravelAddons\Generators\Php\ClassName;
-use Hinet\LaravelAddons\Generators\FileGenerator;
+use Kaneki\LaravelAddons\Generators\Php\Constant;
+use Kaneki\LaravelAddons\Generators\Php\ClassName;
+use Kaneki\LaravelAddons\Generators\FileGenerator;
 
 class Generator
 {

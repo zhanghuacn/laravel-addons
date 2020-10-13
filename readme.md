@@ -17,7 +17,7 @@
 使用 Composer 
 
 ```sh
-composer require hinet/laravel-addons
+composer require kaneki/laravel-addons
 ```
 ## 使用
 

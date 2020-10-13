@@ -1,13 +1,13 @@
 <?php
 
-namespace Hinet\LaravelAddons;
+namespace Kaneki\LaravelAddons;
 
 use Illuminate\Support\Facades\Blade;
-use Hinet\LaravelAddons\Addon\Generator as AddonGenerator;
-use Hinet\LaravelAddons\Addon\Repository;
-use Hinet\LaravelAddons\Addon\Events\AddonWorldCreated;
-use Hinet\LaravelAddons\Addon\Events\AddonRegistered;
-use Hinet\LaravelAddons\Addon\Events\AddonBooted;
+use Kaneki\LaravelAddons\Addon\Generator as AddonGenerator;
+use Kaneki\LaravelAddons\Addon\Repository;
+use Kaneki\LaravelAddons\Addon\Events\AddonWorldCreated;
+use Kaneki\LaravelAddons\Addon\Events\AddonRegistered;
+use Kaneki\LaravelAddons\Addon\Events\AddonBooted;
 
 class ServiceProvider extends \Illuminate\Support\ServiceProvider
 {

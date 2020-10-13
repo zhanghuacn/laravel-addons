@@ -2,7 +2,7 @@
 
 namespace {$namespace}\Migrations;
 
-use Hinet\LaravelAddons\Support\Migration;
+use Kaneki\LaravelAddons\Support\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 

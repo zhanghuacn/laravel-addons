@@ -1,9 +1,9 @@
 <?php
 
-namespace Hinet\LaravelAddons\Support;
+namespace Kaneki\LaravelAddons\Support;
 
 use Illuminate\Support\ServiceProvider;
-use Hinet\LaravelAddons\Migrator;
+use Kaneki\LaravelAddons\Migrator;
 
 abstract class DatabaseServiceProvider extends ServiceProvider
 {

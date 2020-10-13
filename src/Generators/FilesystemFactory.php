@@ -1,6 +1,6 @@
 <?php
 
-namespace Hinet\LaravelAddons\Generators;
+namespace Kaneki\LaravelAddons\Generators;
 
 use League\Flysystem\Filesystem;
 use League\Flysystem\Adapter\Local as LocalAdapter;

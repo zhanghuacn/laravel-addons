@@ -1,6 +1,6 @@
 <?php
 
-namespace Hinet\LaravelAddons;
+namespace Kaneki\LaravelAddons;
 
 use Illuminate\Support\Arr;
 use Illuminate\Database\DatabaseManager;

@@ -2,8 +2,8 @@
 
 use Illuminate\Support\Str;
 use Illuminate\Support\Arr;
-use Hinet\LaravelAddons\Specs\Factory as SpecFactory;
-use Hinet\LaravelAddons\Environment as AddonEnvironment;
+use Kaneki\LaravelAddons\Specs\Factory as SpecFactory;
+use Kaneki\LaravelAddons\Environment as AddonEnvironment;
 
 if (!function_exists('runtime_get_caller_class')) {
     /**

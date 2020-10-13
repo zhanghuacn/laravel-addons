@@ -1,6 +1,6 @@
 <?php
 
-namespace Hinet\LaravelAddons\Support;
+namespace Kaneki\LaravelAddons\Support;
 
 use Illuminate\Support\ServiceProvider;
 

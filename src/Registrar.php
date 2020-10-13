@@ -1,6 +1,6 @@
 <?php
 
-namespace Hinet\LaravelAddons;
+namespace Kaneki\LaravelAddons;
 
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Console\Application as Artisan;

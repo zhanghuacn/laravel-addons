@@ -1,6 +1,6 @@
 <?php
 
-namespace Hinet\LaravelAddons\Generators\Php;
+namespace Kaneki\LaravelAddons\Generators\Php;
 
 class ClassName
 {

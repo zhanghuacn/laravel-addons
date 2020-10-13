@@ -1,6 +1,6 @@
 <?php
 
-namespace Hinet\LaravelAddons\Console;
+namespace Kaneki\LaravelAddons\Console;
 
 use InvalidArgumentException;
 

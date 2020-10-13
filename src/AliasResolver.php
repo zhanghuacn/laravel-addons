@@ -1,6 +1,6 @@
 <?php
 
-namespace Hinet\LaravelAddons;
+namespace Kaneki\LaravelAddons;
 
 use Illuminate\Support\Str;
 use Illuminate\Config\Repository;

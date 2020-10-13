@@ -1,10 +1,10 @@
 <?php
 
-namespace Hinet\LaravelAddons\Console;
+namespace Kaneki\LaravelAddons\Console;
 
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;
-use Hinet\LaravelAddons\Environment as AddonEnvironment;
+use Kaneki\LaravelAddons\Environment as AddonEnvironment;
 use UnexpectedValueException;
 
 class AddonRemoveCommand extends Command

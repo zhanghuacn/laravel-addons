@@ -2,7 +2,7 @@
 
 namespace {$namespace}\Providers;
 
-use Hinet\LaravelAddons\Support\AddonServiceProvider as ServiceProvider;
+use Kaneki\LaravelAddons\Support\AddonServiceProvider as ServiceProvider;
 
 class AddonServiceProvider extends ServiceProvider
 {
